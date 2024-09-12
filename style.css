@@ -153,7 +153,6 @@ li:hover {
 
 .banner-1 {
     background-image: url("https://recreio.com.br/media/uploads/dc_comics/batman_robert_pattinson_capa.jpg");
-
 }
 
 
@@ -164,4 +163,30 @@ li:hover {
 
 .banner-3{
     background-image: url("https://preview.redd.it/6jf86lopu4w31.png?auto=webp&s=e47d697816264413d6697bbb5e20e5323fbcc910");
+}
+
+
+footer{
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+span{
+    color: #fff;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.footer-navigation{
+    display: none;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
