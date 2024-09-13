@@ -1,11 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comments</title>
-</head>
-<body>
-    Comments
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comments - The Batman</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="./batman-logo.png" alt="batman-logo" id="logo" />
+      <nav>
+        <ul>
+          <a href="index.html"><li>Home</li></a>
+          <a href="contact-us.html"><li>Contact us</li></a>
+          <a href="pictures.html"><li>Pictures</li></a>
+          <a href="comments.html"><li>Comments</li></a>
+        </ul>
+      </nav>
+    </header>
+    
+    <div class="comments-container">
+      <h2 style="color: #fff; text-align: center;">Comments</h2>
+      <form class="comment-form">
+        <input type="text" placeholder="Your Name" required>
+        <textarea placeholder="Your Comment" required></textarea>
+        <button class="button" type="submit">Post Comment</button>
+      </form>
+
+      <ul class="comment-list">
+        <li class="comment-item">
+          <p class="comment-author">Bruce Wayne</p>
+          <p>This movie was amazing! The dark atmosphere and intense plot kept me on the edge of my seat.</p>
+        </li>
+        <li class="comment-item">
+          <p class="comment-author">Selina Kyle</p>
+          <p>I loved the character development in this film. Can't wait for the sequel!</p>
+        </li>
+        <li class="comment-item">
+          <p class="comment-author">Jim Gordon</p>
+          <p>The attention to detail in Gotham City's portrayal was outstanding. A must-watch for any Batman fan.</p>
+        </li>
+        <li class="comment-item">
+            <p class="comment-author">Davi Navarro</p>
+            <p>The movie was good. Let's wait for the sequel</p>
+        </li>
+      </ul>
+    </div>
+
+    <footer>
+      <img style="object-fit: contain;" alt="" id="logo" src="batman-logo.png">
+      <span>All rights reserved &copy;</span>
+      <span>Developed by Davi Navarro</span>
+      <nav class="footer-navigation">
+        <ul class="footer-list">
+          <a href="index.html"><li>Home</li></a>
+          <a href="contact-us.html"><li>Contact us</li></a>
+          <a href="pictures.html"><li>Pictures</li></a>
+          <a href="comments.html"><li>Comments</li></a>
+        </ul>
+      </nav>
+    </footer>
+  </body>
 </html>
